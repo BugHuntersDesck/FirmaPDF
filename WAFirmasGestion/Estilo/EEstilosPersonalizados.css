@@ -1,0 +1,111 @@
+﻿/* Añade esto en un archivo CSS externo o dentro de un bloque <style> en tu Master Page */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 20px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+/* Estilos adicionales para los botones al pasar el mouse (hover) para un efecto más atractivo */
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* Estilos para el contenedor de los botones para un diseño más limpio y moderno */
+.col-md-6 {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Estilo opcional para agregar un encabezado atractivo sobre los botones */
+.encabezado {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .encabezado h2 {
+        font-weight: 700;
+        color: #333;
+        padding-bottom: 10px;
+    }
+
+    .encabezado p {
+        color: #666;
+    }
+/* Estilo general de la tabla */
+.table {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    /* Estilo de los encabezados de la tabla */
+    .table thead th {
+        background-color: #f8f9fa;
+        color: #495057;
+    }
+
+    /* Estilos para los botones dentro de la tabla */
+    .table .btn {
+        margin: 5px; /* Espaciado alrededor de los botones */
+    }
+
+.btn-ver {
+    color: #fff;
+    background-color: #17a2b8; /* Color Bootstrap para el botón Ver */
+    border-color: #17a2b8;
+}
+
+.btn-cancelar {
+    color: #fff;
+    background-color: #dc3545; /* Color Bootstrap para el botón Cancelar */
+    border-color: #dc3545;
+}
+
+.btn-descargar {
+    color: #fff;
+    background-color: #28a745; /* Color Bootstrap para el botón Descargar */
+    border-color: #28a745;
+}
+
+/* Estilos para los botones al pasar el ratón por encima */
+.table .btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
