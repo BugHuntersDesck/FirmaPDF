@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fa5181b7-a6f3-402f-bf37-e841ded0399e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55940/AppCode/Servicio/CertificadoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CertificadoService.xsd" MetadataType="Schema" ID="6c5ce5d5-212d-4037-9938-fb94c12e5846" SourceId="1" SourceUrl="http://localhost:55940/AppCode/Servicio/CertificadoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CertificadoService.disco" MetadataType="Disco" ID="9aa9c787-29fb-4c6f-9920-d58c21043033" SourceId="1" SourceUrl="http://localhost:55940/AppCode/Servicio/CertificadoService.svc?disco" />
+    <MetadataFile FileName="CertificadoService.wsdl" MetadataType="Wsdl" ID="4ac2890f-2557-48d2-b3a5-e2a2773ac3c5" SourceId="1" SourceUrl="http://localhost:55940/AppCode/Servicio/CertificadoService.svc?wsdl" />
+    <MetadataFile FileName="CertificadoService1.xsd" MetadataType="Schema" ID="0146750a-a03d-4fde-a123-9ba2e4a59c04" SourceId="1" SourceUrl="http://localhost:55940/AppCode/Servicio/CertificadoService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
