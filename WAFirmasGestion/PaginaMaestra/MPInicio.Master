@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MPInicio.Master.cs" Inherits="WAFirmasGestion.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 70px; /* Ajuste para el navbar fijo */
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: #007bff !important;
+        }
+
+        footer {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .body-content {
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+     <link href="~/Estilo/EEstilosPersonalizados.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery, Popper.js, y Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form runat="server">
+        <div class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" runat="server" href="~/WebForms/PInicio.aspx">Sistema De Firmas Digitales</a> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                </div>
+            </div>
+        </div>
+
+        <div class="container body-content mt-5 pt-3">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer class="my-5">
+                <p class="text-center">&copy; <%: DateTime.Now.Year %> - UNIVALLE</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
